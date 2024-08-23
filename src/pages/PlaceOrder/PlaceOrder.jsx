@@ -2,7 +2,7 @@
 import React from 'react'
 import "./PlaceOderStyle.css"
 
-const PlaceOder = () => {
+const PlaceOrder = () => {
   return (
     <div>
       
@@ -10,4 +10,4 @@ const PlaceOder = () => {
   )
 }
 
-export default PlaceOder
+export default PlaceOrder

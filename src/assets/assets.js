@@ -1,7 +1,6 @@
 import basket_icon from './basket_icon.png'
 import logo from './logo.png'
 import logo_footer from './logo_footer.png'
-import header_img from './header_img.png'
 import search_icon from './search_icon.png'
 import menu_1 from './nike.png'
 import menu_2 from './adidas.png'
@@ -48,7 +47,45 @@ import adidas_sneaker15 from './gazelle-85-shoes.avif'
 import adidas_sneaker16 from './sl-72-rs-shoes.avif'
 
 
+//PUMA SNEAKER
+import puma_sneaker1 from './fenty-x-puma-creeper-phatty.avif'
+import puma_sneaker2 from './magmax-nitro.avif'
+import puma_sneaker3 from './suede-xl.avif'
+import puma_sneaker4 from './suede-peace-and-love.avif'
+import puma_sneaker5 from './suede-trippy.avif'
+import puma_sneaker6 from './palermo-leather.avif'
+import puma_sneaker7 from './easy-rider-vintage.avif'
+import puma_sneaker8 from './voltaic-evo-fast.avif'
+import puma_sneaker9 from './basket-trim-seaside-drills.avif'
+import puma_sneaker10 from './play-loud-suede.avif'
+import puma_sneaker11 from './suede-xl-crush.avif'
+import puma_sneaker12 from './play-loud-gv-special.avif'
+import puma_sneaker13 from './rebound.avif'
+import puma_sneaker14 from './suede-podium.avif'
+import puma_sneaker15 from './voltaic-evo-running.avif'
+import puma_sneaker16 from './rs-x-heritage.avif'
 
+
+//ANANAS
+import ananas_sneaker1 from './urbas-love-24-low.jpg'
+import ananas_sneaker2 from './vintas-public-2000s-low.jpg'
+import ananas_sneaker3 from './vintas-vivu-low.jpeg'
+import ananas_sneaker4 from './vintas-nauda-ext-high.jpeg'
+import ananas_sneaker5 from './vintas-nauda-ext-low.jpeg'
+import ananas_sneaker6 from './pattas-tomo-low.jpeg'
+import ananas_sneaker7 from './pattas-tomo-mule.jpeg'
+import ananas_sneaker8 from './pattas-tomo-high.jpeg'
+import ananas_sneaker9 from './track-6-low.jpeg'
+import ananas_sneaker10 from './urbas-corluray-mix-high.jpeg'
+import ananas_sneaker11 from './urbas-corluray-mix-low.jpeg'
+import ananas_sneaker12 from './vintas-jazico-high.jpeg'
+import ananas_sneaker13 from './vintas-jazico-low.jpeg'
+import ananas_sneaker14 from './track-6-jazico.jpeg'
+import ananas_sneaker15 from './vintas-landforms-low.jpg'
+import ananas_sneaker16 from './urbas-sc-high.jpg'
+
+
+//ICON
 import add_icon_white from './add_icon_white.png'
 import add_icon_green from './add_icon_green.png'
 import remove_icon_red from './remove_icon_red.png'
@@ -69,7 +106,6 @@ export const assets = {
     logo,
     logo_footer,
     basket_icon,
-    header_img,
     search_icon,
     rating_starts,
     add_icon_green,
@@ -122,7 +158,7 @@ export const menu_list = [
         menu_image: menu_8
     }]
 
-export const food_list = [
+export const sneaker_list = [
 
     //NIKE
     {
@@ -358,4 +394,267 @@ export const food_list = [
         description: "ADIDAS SNEAKER",
         category: "ADIDAS"
     },
+
+
+    //PUMA
+    {
+        _id: "31",
+        name: "Fenty X Puma Creeper",
+        image: puma_sneaker1,
+        price: 18,
+        description: "PUMA SNEAKER",
+        category: "PUMA"
+    },
+    {
+        _id: "32",
+        name: "Magmax Nitro",
+        image: puma_sneaker2,
+        price: 18,
+        description: "PUMA SNEAKER",
+        category: "PUMA"
+    },
+    {
+        _id: "33",
+        name: "Suede XL",
+        image: puma_sneaker3,
+        price: 18,
+        description: "PUMA SNEAKER",
+        category: "PUMA"
+    },
+    {
+        _id: "34",
+        name: "Suede Peace & Love",
+        image: puma_sneaker4,
+        price: 18,
+        description: "PUMA SNEAKER",
+        category: "PUMA"
+    },
+    {
+        _id: "35",
+        name: "Suede Trippy",
+        image: puma_sneaker5,
+        price: 18,
+        description: "PUMA SNEAKER",
+        category: "PUMA"
+    },
+    {
+        _id: "36",
+        name: "Palermo Leather",
+        image: puma_sneaker6,
+        price: 18,
+        description: "PUMA SNEAKER",
+        category: "PUMA"
+    },
+    {
+        _id: "37",
+        name: "Easy Rider Vintage",
+        image: puma_sneaker7,
+        price: 18,
+        description: "PUMA SNEAKER",
+        category: "PUMA"
+    },
+    {
+        _id: "38",
+        name: "Voltaic Evo Fast",
+        image: puma_sneaker8,
+        price: 18,
+        description: "PUMA SNEAKER",
+        category: "PUMA"
+    },
+    {
+        _id: "39",
+        name: "Basket Trim Seaside Drills",
+        image: puma_sneaker9,
+        price: 18,
+        description: "PUMA SNEAKER",
+        category: "PUMA"
+    },
+    {
+        _id: "40",
+        name: "Play Loud Suede",
+        image: puma_sneaker10,
+        price: 18,
+        description: "PUMA SNEAKER",
+        category: "PUMA"
+    },
+    {
+        _id: "41",
+        name: "Suede XL Crush",
+        image: puma_sneaker11,
+        price: 18,
+        description: "PUMA SNEAKER",
+        category: "PUMA"
+    },
+    {
+        _id: "42",
+        name: "Play Loud GV Special",
+        image: puma_sneaker12,
+        price: 18,
+        description: "PUMA SNEAKER",
+        category: "PUMA"
+    },
+    {
+        _id: "43",
+        name: "Rebound",
+        image: puma_sneaker13,
+        price: 18,
+        description: "PUMA SNEAKER",
+        category: "PUMA"
+    },
+    {
+        _id: "44",
+        name: "Suede Podium",
+        image: puma_sneaker14,
+        price: 18,
+        description: "PUMA SNEAKER",
+        category: "PUMA"
+    },
+    {
+        _id: "45",
+        name: "Voltaic Evo Running",
+        image: puma_sneaker15,
+        price: 18,
+        description: "PUMA SNEAKER",
+        category: "PUMA"
+    },
+    {
+        _id: "46",
+        name: "RS X Heritage",
+        image: puma_sneaker16,
+        price: 18,
+        description: "PUMA SNEAKER",
+        category: "PUMA"
+    },
+
+
+    //ANANAS
+    {
+        _id: "47",
+        name: "Urbas Love 24 Low",
+        image: ananas_sneaker1,
+        price: 18,
+        description: "ANANAS SNEAKER",
+        category: "ANANAS"
+    },
+    {
+        _id: "48",
+        name: "Vintas Public 2000s Low",
+        image: ananas_sneaker2,
+        price: 18,
+        description: "ANANAS SNEAKER",
+        category: "ANANAS"
+    },
+    {
+        _id: "49",
+        name: "Vintas Vivu Low",
+        image: ananas_sneaker3,
+        price: 18,
+        description: "ANANAS SNEAKER",
+        category: "ANANAS"
+    },
+    {
+        _id: "50",
+        name: "Vintas Nauda EXT High",
+        image: ananas_sneaker4,
+        price: 18,
+        description: "ANANAS SNEAKER",
+        category: "ANANAS"
+    },
+    {
+        _id: "51",
+        name: "Vintas Nauda EXT Low",
+        image: ananas_sneaker5,
+        price: 18,
+        description: "ANANAS SNEAKER",
+        category: "ANANAS"
+    },
+    {
+        _id: "52",
+        name: "Pattas Tomo Low",
+        image: ananas_sneaker6,
+        price: 18,
+        description: "ANANAS SNEAKER",
+        category: "ANANAS"
+    },
+    {
+        _id: "53",
+        name: "Pattas Tomo Mule",
+        image: ananas_sneaker7,
+        price: 18,
+        description: "ANANAS SNEAKER",
+        category: "ANANAS"
+    },
+    {
+        _id: "54",
+        name: "Pattas Tomo High",
+        image: ananas_sneaker8,
+        price: 18,
+        description: "ANANAS SNEAKER",
+        category: "ANANAS"
+    },
+    {
+        _id: "55",
+        name: "Track 6 Low",
+        image: ananas_sneaker9,
+        price: 18,
+        description: "ANANAS SNEAKER",
+        category: "ANANAS"
+    },
+    {
+        _id: "56",
+        name: "Urbas Corluray High",
+        image: ananas_sneaker10,
+        price: 18,
+        description: "ANANAS SNEAKER",
+        category: "ANANAS"
+    },
+    {
+        _id: "57",
+        name: "Urbas Corluray Low",
+        image: ananas_sneaker11,
+        price: 18,
+        description: "ANANAS SNEAKER",
+        category: "ANANAS"
+    },
+    {
+        _id: "58",
+        name: "Vintas Jazico High",
+        image: ananas_sneaker12,
+        price: 18,
+        description: "ANANAS SNEAKER",
+        category: "ANANAS"
+    },
+    {
+        _id: "59",
+        name: "Vintas Jazico Low",
+        image: ananas_sneaker13,
+        price: 18,
+        description: "ANANAS SNEAKER",
+        category: "ANANAS"
+    },
+    {
+        _id: "60",
+        name: "Track 6 Jazico",
+        image: ananas_sneaker14,
+        price: 18,
+        description: "ANANAS SNEAKER",
+        category: "ANANAS"
+    },
+    {
+        _id: "61",
+        name: "Vintas Landforms Low",
+        image: ananas_sneaker15,
+        price: 18,
+        description: "ANANAS SNEAKER",
+        category: "ANANAS"
+    },
+    {
+        _id: "62",
+        name: "Urbas SC High",
+        image: ananas_sneaker16,
+        price: 18,
+        description: "ANANAS SNEAKER",
+        category: "ANANAS"
+    },
+    
 ]   

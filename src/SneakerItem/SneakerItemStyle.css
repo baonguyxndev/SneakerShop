@@ -1,0 +1,99 @@
+.sneaker-item {
+    width: 100%;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1.5s;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.sneaker-item:hover {
+    transform: translateY(-20px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.sneaker-item-image {
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.sneaker-item-info {
+    padding: 20px;
+}
+
+.sneaker-item-name-rating {
+    margin-bottom: 20px;
+}
+
+.sneaker-item-name-rating p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.sneaker-item-name-rating img {
+    margin-top: 10px;
+}
+
+.sneaker-item-desc {
+    color: #676767;
+    font-size: 12px;
+}
+
+.sneaker-item-price {
+    color: tomato;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+
+.sneaker-item-img-container {
+    position: relative;
+}
+
+.sneaker-item-img-container .add {
+    width: 40px;
+    position: absolute;
+    bottom: 230px;
+    right: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.sneaker-item-img-container .add:hover {
+    transform: scale(1.3);
+}
+
+.sneaker-item-counter {
+    position: absolute;
+    bottom: 230px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.sneaker-item-counter img {
+    width: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.sneaker-item-counter img:hover {
+    transform: scale(1.2);
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

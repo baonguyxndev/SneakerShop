@@ -3,6 +3,8 @@ import React, { useState } from 'react'
 import './HomeStyle.css'
 import Header from '../../components/Header/Header'
 import ExploreMenu from '../../components/ExploreMenu/ExploreMenu'
+import SneakerDisplay from '../../SneakerDisplay/SneakerDisplay'
+
 
 const Home = () => {
 
@@ -12,6 +14,7 @@ const Home = () => {
     <div>
       <Header/>
       <ExploreMenu category = {category} setCategory = {setCategory}/>
+      <SneakerDisplay category = {category}/>
     </div>
   )
 }

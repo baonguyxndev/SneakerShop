@@ -85,6 +85,25 @@ import ananas_sneaker15 from './vintas-landforms-low.jpg'
 import ananas_sneaker16 from './urbas-sc-high.jpg'
 
 
+//NEW BALANCE
+import new_balance_sneaker1 from './530.webp'
+import new_balance_sneaker2 from './9060.webp'
+import new_balance_sneaker3 from './fresh-foam-x.webp'
+import new_balance_sneaker4 from './rc42.webp'
+import new_balance_sneaker5 from './fuelcell-rebel-v4.webp'
+import new_balance_sneaker6 from './t500.webp'
+import new_balance_sneaker7 from './fresh-foam-x-cruz.webp'
+import new_balance_sneaker8 from './570-core.webp'
+import new_balance_sneaker9 from './made-in-uk-1500.webp'
+import new_balance_sneaker10 from './550.webp'
+import new_balance_sneaker11 from './574.webp'
+import new_balance_sneaker12 from './numeric-480.webp'
+import new_balance_sneaker13 from './numeric-franky-villani.webp'
+import new_balance_sneaker14 from './numeric-jamie-foy.webp'
+import new_balance_sneaker15 from './ml725v1.webp'
+import new_balance_sneaker16 from './numeric-440-high.webp'
+
+
 //ICON
 import add_icon_white from './add_icon_white.png'
 import add_icon_green from './add_icon_green.png'
@@ -655,6 +674,137 @@ export const sneaker_list = [
         price: 18,
         description: "ANANAS SNEAKER",
         category: "ANANAS"
+    },
+
+    
+    //NEW BALANCE
+    {
+        _id: "63",
+        name: "530",
+        image: new_balance_sneaker1,
+        price: 18,
+        description: "NEW BALANCE SNEAKER",
+        category: "NEW BALANCE"
+    },
+    {
+        _id: "64",
+        name: "9060",
+        image: new_balance_sneaker2,
+        price: 18,
+        description: "NEW BALANCE SNEAKER",
+        category: "NEW BALANCE"
+    },
+    {
+        _id: "65",
+        name: "Fresh Foam X",
+        image: new_balance_sneaker3,
+        price: 18,
+        description: "NEW BALANCE SNEAKER",
+        category: "NEW BALANCE"
+    },
+    {
+        _id: "66",
+        name: "RC42",
+        image: new_balance_sneaker4,
+        price: 18,
+        description: "NEW BALANCE SNEAKER",
+        category: "NEW BALANCE"
+    },
+    {
+        _id: "67",
+        name: "Fuelcell Rebel V4",
+        image: new_balance_sneaker5,
+        price: 18,
+        description: "NEW BALANCE SNEAKER",
+        category: "NEW BALANCE"
+    },
+    {
+        _id: "68",
+        name: "T500",
+        image: new_balance_sneaker6,
+        price: 18,
+        description: "NEW BALANCE SNEAKER",
+        category: "NEW BALANCE"
+    },
+    {
+        _id: "69",
+        name: "Fresh Foam X Cruz",
+        image: new_balance_sneaker7,
+        price: 18,
+        description: "NEW BALANCE SNEAKER",
+        category: "NEW BALANCE"
+    },
+    {
+        _id: "70",
+        name: "570 Core",
+        image: new_balance_sneaker8,
+        price: 18,
+        description: "NEW BALANCE SNEAKER",
+        category: "NEW BALANCE"
+    },
+    {
+        _id: "71",
+        name: "Made In UK 1500",
+        image: new_balance_sneaker9,
+        price: 18,
+        description: "NEW BALANCE SNEAKER",
+        category: "NEW BALANCE"
+    },
+    {
+        _id: "72",
+        name: "550",
+        image: new_balance_sneaker10,
+        price: 18,
+        description: "NEW BALANCE SNEAKER",
+        category: "NEW BALANCE"
+    },
+    {
+        _id: "73",
+        name: "574",
+        image: new_balance_sneaker11,
+        price: 18,
+        description: "NEW BALANCE SNEAKER",
+        category: "NEW BALANCE"
+    },
+    {
+        _id: "74",
+        name: "Numeric 480",
+        image: new_balance_sneaker12,
+        price: 18,
+        description: "NEW BALANCE SNEAKER",
+        category: "NEW BALANCE"
+    },
+    {
+        _id: "75",
+        name: "Numeric Franky Villani",
+        image: new_balance_sneaker13,
+        price: 18,
+        description: "NEW BALANCE SNEAKER",
+        category: "NEW BALANCE"
+    },
+    {
+        _id: "76",
+        name: "Numeric Jamie Foy",
+        image: new_balance_sneaker14,
+        price: 18,
+        description: "NEW BALANCE SNEAKER",
+        category: "NEW BALANCE"
+    },
+    {
+        _id: "77",
+        name: "ML 725 V1",
+        image: new_balance_sneaker15,
+        price: 18,
+        description: "NEW BALANCE SNEAKER",
+        category: "NEW BALANCE"
+    },
+    {
+        _id: "78",
+        name: "Numeric 440 High",
+        image: new_balance_sneaker16,
+        price: 18,
+        description: "NEW BALANCE SNEAKER",
+        category: "NEW BALANCE"
     },
     
 ]   

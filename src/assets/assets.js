@@ -104,6 +104,63 @@ import new_balance_sneaker15 from './ml725v1.webp'
 import new_balance_sneaker16 from './numeric-440-high.webp'
 
 
+//CONVERSE
+import converse_sneaker1 from './chuck-70.jpg'
+import converse_sneaker2 from './cdg.jpg'
+import converse_sneaker3 from './sketch.jpg'
+import converse_sneaker4 from './comme-des-garcons.jpg'
+import converse_sneaker5 from './chuck-70-plus.jpg'
+import converse_sneaker6 from './taylor-all-star.jpg'
+import converse_sneaker7 from './multi-heart.jpg'
+import converse_sneaker8 from './taylor-all-star-cruise.jpg'
+import converse_sneaker9 from './star-hike-canvas.jpg'
+import converse_sneaker10 from './star-motion-cx-canvas.jpg'
+import converse_sneaker11 from './star-player-76.jpg'
+import converse_sneaker12 from './weapon.jpg'
+import converse_sneaker13 from './run-star-motion-foundational.jpg'
+import converse_sneaker14 from './golf-le-fleur.jpg'
+import converse_sneaker15 from './run-star-trainer.jpg'
+import converse_sneaker16 from './taylor-all-star-cruise-caro.jpg'
+
+
+//VANS
+import vans_sneaker1 from './old-skool.webp'
+import vans_sneaker2 from './classic.webp'
+import vans_sneaker3 from './slip-on-checkerboard.webp'
+import vans_sneaker4 from './sk8-hi-classic.webp'
+import vans_sneaker5 from './old-skool-sentry.webp'
+import vans_sneaker6 from './sk8-the-lizzie.webp'
+import vans_sneaker7 from './sk8-low.webp'
+import vans_sneaker8 from './sk8-hi-vintage.webp'
+import vans_sneaker9 from './old-skool-modular-turtledov.webp'
+import vans_sneaker10 from './national-geographic-sk8.webp'
+import vans_sneaker11 from './old-skool-varsity.webp'
+import vans_sneaker12 from './collage-black-white.webp'
+import vans_sneaker13 from './sport-cadmium.webp'
+import vans_sneaker14 from './classic-comfycush.webp'
+import vans_sneaker15 from './sesame-street-sk8.webp'
+import vans_sneaker16 from './knu-skool.webp'
+
+
+//BITI'S
+import bitis_sneaker1 from './hunter-tennis.webp'
+import bitis_sneaker2 from './x-classic.webp'
+import bitis_sneaker3 from './sport-leather.webp'
+import bitis_sneaker4 from './hunter-street.webp'
+import bitis_sneaker5 from './hunter-core.jpg'
+import bitis_sneaker6 from './hunter-x-festive.webp'
+import bitis_sneaker7 from './sport-classic.webp'
+import bitis_sneaker8 from './street-bloomin-central.webp'
+import bitis_sneaker9 from './hunter-x-4y.webp'
+import bitis_sneaker10 from './x-nite-22-colection.webp'
+import bitis_sneaker11 from './spiky-collar-collection.webp'
+import bitis_sneaker12 from './hunter-street-vintage.webp'
+import bitis_sneaker13 from './hunter-layered-upper.webp'
+import bitis_sneaker14 from './street-z-collection.webp'
+import bitis_sneaker15 from './street-mid-americano.webp'
+import bitis_sneaker16 from './hunter-x.webp'
+
+
 //ICON
 import add_icon_white from './add_icon_white.png'
 import add_icon_green from './add_icon_green.png'
@@ -807,4 +864,398 @@ export const sneaker_list = [
         category: "NEW BALANCE"
     },
     
+
+    //CONVERSE
+    {
+        _id: "79",
+        name: "Chuck 70",
+        image: converse_sneaker1,
+        price: 18,
+        description: "CONVERSE SNEAKER",
+        category: "CONVERSE"
+    },
+    {
+        _id: "80",
+        name: "CDG",
+        image: converse_sneaker2,
+        price: 18,
+        description: "CONVERSE SNEAKER",
+        category: "CONVERSE"
+    },
+    {
+        _id: "81",
+        name: "Sketch",
+        image: converse_sneaker3,
+        price: 18,
+        description: "CONVERSE SNEAKER",
+        category: "CONVERSE"
+    },
+    {
+        _id: "82",
+        name: "Come Des Garcons",
+        image: converse_sneaker4,
+        price: 18,
+        description: "CONVERSE SNEAKER",
+        category: "CONVERSE"
+    },
+    {
+        _id: "83",
+        name: "Chuck 70 Plus",
+        image: converse_sneaker5,
+        price: 18,
+        description: "CONVERSE SNEAKER",
+        category: "CONVERSE"
+    },
+    {
+        _id: "84",
+        name: "Taylor All Star",
+        image: converse_sneaker6,
+        price: 18,
+        description: "CONVERSE SNEAKER",
+        category: "CONVERSE"
+    },
+    {
+        _id: "85",
+        name: "Multi Heart",
+        image: converse_sneaker7,
+        price: 18,
+        description: "CONVERSE SNEAKER",
+        category: "CONVERSE"
+    },
+    {
+        _id: "86",
+        name: "Taylor All Star Cruise",
+        image: converse_sneaker8,
+        price: 18,
+        description: "CONVERSE SNEAKER",
+        category: "CONVERSE"
+    },
+    {
+        _id: "87",
+        name: "Star Hike Canvas",
+        image: converse_sneaker9,
+        price: 18,
+        description: "CONVERSE SNEAKER",
+        category: "CONVERSE"
+    },
+    {
+        _id: "88",
+        name: "Star Motion CX Canvas ",
+        image: converse_sneaker10,
+        price: 18,
+        description: "CONVERSE SNEAKER",
+        category: "CONVERSE"
+    },
+    {
+        _id: "89",
+        name: "Star Player   76",
+        image: converse_sneaker11,
+        price: 18,
+        description: "CONVERSE SNEAKER",
+        category: "CONVERSE"
+    },
+    {
+        _id: "90",
+        name: "Weapon",
+        image: converse_sneaker12,
+        price: 18,
+        description: "CONVERSE SNEAKER",
+        category: "CONVERSE"
+    },
+    {
+        _id: "91",
+        name: "Run Star Motion Foundational",
+        image: converse_sneaker13,
+        price: 18,
+        description: "CONVERSE SNEAKER",
+        category: "CONVERSE"
+    },
+    {
+        _id: "92",
+        name: "Golf Le Fleur",
+        image: converse_sneaker14,
+        price: 18,
+        description: "CONVERSE SNEAKER",
+        category: "CONVERSE"
+    },
+    {
+        _id: "93",
+        name: "Run Star Trainer",
+        image: converse_sneaker15,
+        price: 18,
+        description: "CONVERSE SNEAKER",
+        category: "CONVERSE"
+    },
+    {
+        _id: "94",
+        name: "Taylor All Star Cruise Caro",
+        image: converse_sneaker16,
+        price: 18,
+        description: "CONVERSE SNEAKER",
+        category: "CONVERSE"
+    },
+    
+
+    //VANS
+    {
+        _id: "95",
+        name: "Old Skool",
+        image: vans_sneaker1,
+        price: 18,
+        description: "VANS SNEAKER",
+        category: "VANS"
+    },
+    {
+        _id: "96",
+        name: "Classic",
+        image: vans_sneaker2,
+        price: 18,
+        description: "VANS SNEAKER",
+        category: "VANS"
+    },
+    {
+        _id: "97",
+        name: "Slip On Checkerboard",
+        image: vans_sneaker3,
+        price: 18,
+        description: "VANS SNEAKER",
+        category: "VANS"
+    },
+    {
+        _id: "98",
+        name: "Sk8 Hi Classic",
+        image: vans_sneaker4,
+        price: 18,
+        description: "VANS SNEAKER",
+        category: "VANS"
+    },
+    {
+        _id: "99",
+        name: "Old skool Sentry",
+        image: vans_sneaker5,
+        price: 18,
+        description: "VANS SNEAKER",
+        category: "VANS"
+    },
+    {
+        _id: "100",
+        name: "Sk8 The Lizzie",
+        image: vans_sneaker6,
+        price: 18,
+        description: "VANS SNEAKER",
+        category: "VANS"
+    },
+    {
+        _id: "101",
+        name: "Sk8 Low",
+        image: vans_sneaker7,
+        price: 18,
+        description: "VANS SNEAKER",
+        category: "VANS"
+    },
+    {
+        _id: "102",
+        name: "Sk8 Hi Vintage",
+        image: vans_sneaker8,
+        price: 18,
+        description: "VANS SNEAKER",
+        category: "VANS"
+    },
+    {
+        _id: "103",
+        name: "Old Skool Modular Turtledov",
+        image: vans_sneaker9,
+        price: 18,
+        description: "VANS SNEAKER",
+        category: "VANS"
+    },
+    {
+        _id: "104",
+        name: "National Gepgraphic Sk8",
+        image: vans_sneaker10,
+        price: 18,
+        description: "VANS SNEAKER",
+        category: "VANS"
+    },
+    {
+        _id: "105",
+        name: "Old Skool Varsity",
+        image: vans_sneaker11,
+        price: 18,
+        description: "VANS SNEAKER",
+        category: "VANS"
+    },
+    {
+        _id: "106",
+        name: "Collage Black White",
+        image: vans_sneaker12,
+        price: 18,
+        description: "VANS SNEAKER",
+        category: "VANS"
+    },
+    {
+        _id: "107",
+        name: "Sport Cadmium",
+        image: vans_sneaker13,
+        price: 18,
+        description: "VANS SNEAKER",
+        category: "VANS"
+    },
+    {
+        _id: "108",
+        name: "Classic Comfycush",
+        image: vans_sneaker14,
+        price: 18,
+        description: "VANS SNEAKER",
+        category: "VANS"
+    },
+    {
+        _id: "109",
+        name: "Sesame Street Sk8",
+        image: vans_sneaker15,
+        price: 18,
+        description: "VANS SNEAKER",
+        category: "VANS"
+    },
+    {
+        _id: "110",
+        name: "Knu Skool",
+        image: vans_sneaker16,
+        price: 18,
+        description: "VANS SNEAKER",
+        category: "VANS"
+    },
+
+
+    //BITI'S
+    {
+        _id: "111",
+        name: "Hunter Tennis",
+        image: bitis_sneaker1,
+        price: 18,
+        description: "BITIS SNEAKER",
+        category: "BITIS"
+    },
+    {
+        _id: "112",
+        name: "X Classic",
+        image: bitis_sneaker2,
+        price: 18,
+        description: "BITIS SNEAKER",
+        category: "BITIS"
+    },
+    {
+        _id: "113",
+        name: "Sport Leather",
+        image: bitis_sneaker3,
+        price: 18,
+        description: "BITIS SNEAKER",
+        category: "BITIS"
+    },
+    {
+        _id: "114",
+        name: "Hunter Street",
+        image: bitis_sneaker4,
+        price: 18,
+        description: "BITIS SNEAKER",
+        category: "BITIS"
+    },
+    {
+        _id: "115",
+        name: "Hunter Core",
+        image: bitis_sneaker5,
+        price: 18,
+        description: "BITIS SNEAKER",
+        category: "BITIS"
+    },
+    {
+        _id: "116",
+        name: "Hunter X Festive",
+        image: bitis_sneaker6,
+        price: 18,
+        description: "BITIS SNEAKER",
+        category: "BITIS"
+    },
+    {
+        _id: "117",
+        name: "Sport Classic",
+        image: bitis_sneaker7,
+        price: 18,
+        description: "BITIS SNEAKER",
+        category: "BITIS"
+    },
+    {
+        _id: "118",
+        name: "Street Bloomin Central",
+        image: bitis_sneaker8,
+        price: 18,
+        description: "BITIS SNEAKER",
+        category: "BITIS"
+    },
+    {
+        _id: "119",
+        name: "Hunter X 4y",
+        image: bitis_sneaker9,
+        price: 18,
+        description: "BITIS SNEAKER",
+        category: "BITIS"
+    },
+    {
+        _id: "120",
+        name: "X Nite 22 Collection",
+        image: bitis_sneaker10,
+        price: 18,
+        description: "BITIS SNEAKER",
+        category: "BITIS"
+    },
+    {
+        _id: "121",
+        name: "Spiky Collar Collection",
+        image: bitis_sneaker11,
+        price: 18,
+        description: "BITIS SNEAKER",
+        category: "BITIS"
+    },
+    {
+        _id: "122",
+        name: "Hunter Street Vintage",
+        image: bitis_sneaker12,
+        price: 18,
+        description: "BITIS SNEAKER",
+        category: "BITIS"
+    },
+    {
+        _id: "123",
+        name: "Hunter Layered Upper",
+        image: bitis_sneaker13,
+        price: 18,
+        description: "BITIS SNEAKER",
+        category: "BITIS"
+    },
+    {
+        _id: "124",
+        name: "Street Z Collection",
+        image: bitis_sneaker14,
+        price: 18,
+        description: "BITIS SNEAKER",
+        category: "BITIS"
+    },
+    {
+        _id: "125",
+        name: "Street Mid Americano",
+        image: bitis_sneaker15,
+        price: 18,
+        description: "BITIS SNEAKER",
+        category: "BITIS"
+    },
+    {
+        _id: "126",
+        name: "Hunter X",
+        image: bitis_sneaker16,
+        price: 18,
+        description: "BITIS SNEAKER",
+        category: "BITIS"
+    },
+
+
 ]   

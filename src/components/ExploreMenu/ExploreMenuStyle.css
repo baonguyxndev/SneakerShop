@@ -29,8 +29,15 @@
     height: 4vw;
     min-width: 80px;
     cursor: pointer;
-    transition: 0.2s;
+    transition: 0.3s;
+    transform: scale(0.7);
+
 }
+
+.explore-menu-list-item:hover img {
+    transform: scale(1);
+}
+
 
 .explore-menu-list-item p{
     margin-top: 10px;
@@ -47,9 +54,7 @@
 }
 
 .explore-menu-list-item .active{
-    border: 5px solid tomato;
-    padding: 2px;
-    border-radius: 20px;
+    transform: scale(1);
 }
 
 @media (max-width: 1050px) {

@@ -1,8 +1,8 @@
 // eslint-disable-next-line no-unused-vars
-import React, { useContext } from 'react';
-import './SneakerDisplayStyle.css';
-import SneakerItem from '../SneakerItem/SneakerItem';
-import { StoreContext } from '../context/StoreContext';
+import React, { useContext } from "react";
+import "./SneakerDisplayStyle.css";
+import SneakerItem from "../SneakerItem/SneakerItem";
+import { StoreContext } from "../context/StoreContext";
 
 // eslint-disable-next-line react/prop-types
 const SneakerDisplay = ({ category }) => {
@@ -12,8 +12,8 @@ const SneakerDisplay = ({ category }) => {
   const categories = [...new Set(sneaker_list.map((item) => item.category))];
 
   return (
-    <div className='sneaker-display' id='sneaker-display'>
-      {category === 'All' ? (
+    <div className="sneaker-display" id="sneaker-display">
+      {category === "All" ? (
         // Hiển thị 4 sản phẩm đầu tiên của mỗi danh mục khi chưa chọn danh mục nào
         categories.map((category) => (
           <div key={category}>

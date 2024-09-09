@@ -41,11 +41,14 @@
 }
 
 .cart-items-title {
+  margin-top: 40px;
   display: grid;
   grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
   align-items: center;
   color: grey;
-  font-size: max(1vw, 12px);
+  font-weight: bold;
+  font-size: max(1,5vw, 12px);
+  text-align: center;
 }
 
 .cart-items-item {
@@ -54,7 +57,9 @@
 }
 
 .cart-items-item img {
-  width: 50px;
+  width: 100%;
+  border-radius: 20px;
+  border: solid 2px tomato;
 }
 
 .cart hr {

@@ -10,6 +10,12 @@ const Cart = () => {
   const { cartItems, sneaker_list, removeFromCart, getTotalCartAmount } =
     useContext(StoreContext);
   const navigate = useNavigate();
+  const formatVND = (amount) => {
+    return new Intl.NumberFormat("vi-VN", {
+      style: "currency",
+      currency: "VND",
+    }).format(amount);
+  };
 
   // Kiểm tra nếu giỏ hàng trống bằng cách xem có sản phẩm nào trong cartItems không
   const isCartEmpty = Object.keys(cartItems).every(
@@ -44,9 +50,9 @@ const Cart = () => {
                     <div className="cart-items-title cart-items-item">
                       <img src={item.image} alt="" />
                       <p>{item.name}</p>
-                      <p>{item.price}₫</p>
+                      <p>{formatVND(item.price)}</p>
                       <p>{cartItems[item._id]}</p>
-                      <p>{item.price * cartItems[item._id]}₫</p>
+                      <p>{formatVND(item.price * cartItems[item._id])}</p>
                       <p
                         onClick={() => removeFromCart(item._id)}
                         className="cross"
@@ -66,17 +72,17 @@ const Cart = () => {
               <div>
                 <div className="cart-total-details">
                   <p>Giá</p>
-                  <p>{getTotalCartAmount()}₫</p>
+                  <p>{formatVND(getTotalCartAmount())}</p>
                 </div>
                 <hr />
                 <div className="cart-total-details">
                   <p>Phí giao hàng</p>
-                  <p>{50000}₫</p>
+                  <p>{formatVND(50000)}</p>
                 </div>
                 <hr />
                 <div className="cart-total-details">
                   <b>Tổng</b>
-                  <b>{getTotalCartAmount() + 50000}₫</b>
+                  <b>{formatVND(getTotalCartAmount() + 50000)}</b>
                 </div>
               </div>
               <button onClick={() => navigate("/order")}>

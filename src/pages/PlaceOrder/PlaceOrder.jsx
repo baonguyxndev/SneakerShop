@@ -4,7 +4,14 @@ import "./PlaceOrderStyle.css";
 import { StoreContext } from "../../context/StoreContext";
 
 const PlaceOrder = () => {
+  const { getTotalItemCount } = useContext(StoreContext);
   const { getTotalCartAmount } = useContext(StoreContext);
+  const formatVND = (amount) => {
+    return new Intl.NumberFormat("vi-VN", {
+      style: "currency",
+      currency: "VND",
+    }).format(amount);
+  };
 
   return (
     <form className="place-order">
@@ -28,24 +35,29 @@ const PlaceOrder = () => {
       </div>
       <div className="place-order-right">
         <div className="cart-total">
-          <h2>Cart Totals</h2>
+          <h2>Tổng đơn hàng</h2>
           <div>
             <div className="cart-total-details">
+              <p>Số sản phẩm</p>
+              <p>{getTotalItemCount()}</p>
+            </div>
+            <hr />
+            <div className="cart-total-details">
               <p>Giá</p>
-              <p>{getTotalCartAmount()}₫</p>
+              <p>{formatVND(getTotalCartAmount())}</p>
             </div>
             <hr />
             <div className="cart-total-details">
               <p>Phí giao hàng</p>
-              <p>{2}₫</p>
+              <p>{formatVND(50000)}</p>
             </div>
             <hr />
             <div className="cart-total-details">
               <b>Tổng</b>
-              <b>{getTotalCartAmount() + 2}₫</b>
+              <b>{formatVND(getTotalCartAmount() + 50000)}</b>
             </div>
           </div>
-          <button>Tiếp tục</button>
+          <button>Xác nhận thanh toán</button>
         </div>
       </div>
     </form>

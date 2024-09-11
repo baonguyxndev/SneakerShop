@@ -22,24 +22,24 @@ const Navbar = ({ setShowLogin }) => {
         >
           Trang chủ
         </Link>
-        <a
-          href="#explore-menu"
-          onClick={() => setMenu("menu")}
-          className={menu === "menu" ? "active" : ""}
+        <Link
+          to="/products"
+          onClick={() => setMenu("products")}
+          className={menu === "products" ? "active" : ""}
         >
           Sản phẩm
-        </a>
+        </Link>
         <a
           href="#app-download"
-          onClick={() => setMenu("mobile-app")}
-          className={menu === "mobile-app" ? "active" : ""}
+          onClick={() => setMenu("service")}
+          className={menu === "service" ? "active" : ""}
         >
           Dịch vụ
         </a>
         <a
           href="#footer"
-          onClick={() => setMenu("contact-us")}
-          className={menu === "contact-us" ? "active" : ""}
+          onClick={() => setMenu("contact")}
+          className={menu === "contact" ? "active" : ""}
         >
           Về chúng tôi
         </a>
@@ -48,7 +48,7 @@ const Navbar = ({ setShowLogin }) => {
         <img src={assets.search_icon} alt="Search Icon" />
         <div className="navbar-search-icon">
           <Link to="/cart">
-            <img src={assets.basket_icon} alt="Cart Icon" />
+            <img src={assets.cart_icon} alt="Cart Icon" className="cart-icon" />
             {getTotalItemCount() > 0 && (
               <div className="cart-amount">{getTotalItemCount()}</div>
             )}

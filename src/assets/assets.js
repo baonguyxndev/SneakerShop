@@ -1,15 +1,26 @@
-import basket_icon from "./basket_icon.png";
+//LOGO SHOP
 import logo from "./logo.png";
 import logo_footer from "./logo_footer.png";
-import search_icon from "./search_icon.png";
-import menu_1 from "./nike.png";
-import menu_2 from "./adidas.png";
-import menu_3 from "./puma.png";
-import menu_4 from "./ananas.png";
-import menu_5 from "./new-balance.png";
-import menu_6 from "./converse.jpg";
-import menu_7 from "./vans.png";
-import menu_8 from "./bitis.png";
+
+//LOGO CATEGORIES
+import category_nike from "./nike.png";
+import category_adidas from "./adidas.png";
+import category_puma from "./puma.png";
+import category_ananas from "./ananas.png";
+import category_newbalance from "./new-balance.png";
+import category_converse from "./converse.jpg";
+import category_vans from "./vans.png";
+import category_bitis from "./bitis.png";
+
+//BACKGROUND CATEGORIES
+import category_background_nike from "./nike-background.jpg";
+import category_background_adidas from "./adidas-background.jpg";
+import category_background_puma from "./puma-background.jpg";
+import category_background_ananas from "./ananas-background.webp";
+import category_background_newbalance from "./new-balance-background.jpg";
+import category_background_converse from "./converse-background.jpg";
+import category_background_vans from "./vans-background.jpg";
+import category_background_bitis from "./bitis-background.jpg";
 
 //NIKE SNEAKER
 import nike_sneaker1 from "./air-force-1-low.png";
@@ -154,7 +165,9 @@ import bitis_sneaker15 from "./street-mid-americano.webp";
 import bitis_sneaker16 from "./hunter-x.webp";
 
 //ICON
-import add_icon_white from "./add_icon_white.png";
+import search_icon from "./search_icon.png";
+import cart_icon from "./cart_icon.png";
+import add_to_cart from "./add-to-cart.png";
 import add_icon_green from "./add_icon_green.png";
 import remove_icon_red from "./remove_icon_red.png";
 import app_store from "./app_store.png";
@@ -167,18 +180,18 @@ import selector_icon from "./selector_icon.png";
 import rating_starts from "./rating_starts.png";
 import profile_icon from "./profile_icon.png";
 import bag_icon from "./bag_icon.png";
-import cart_empty_icon from "./cart_empty.png";
+import cart_empty_icon from "./cart_empty.gif";
 import logout_icon from "./logout_icon.png";
 import parcel_icon from "./parcel_icon.png";
 
 export const assets = {
   logo,
   logo_footer,
-  basket_icon,
+  cart_icon,
   search_icon,
   rating_starts,
   add_icon_green,
-  add_icon_white,
+  add_to_cart,
   remove_icon_red,
   app_store,
   play_store,
@@ -194,38 +207,46 @@ export const assets = {
   parcel_icon,
 };
 
-export const menu_list = [
+export const category_list = [
   {
-    menu_name: "NIKE",
-    menu_image: menu_1,
+    category_name: "NIKE",
+    category_image: category_nike,
+    category_background: category_background_nike
   },
   {
-    menu_name: "ADIDAS",
-    menu_image: menu_2,
+    category_name: "ADIDAS",
+    category_image: category_adidas,
+    category_background: category_background_adidas
   },
   {
-    menu_name: "PUMA",
-    menu_image: menu_3,
+    category_name: "PUMA",
+    category_image: category_puma,
+    category_background: category_background_puma
   },
   {
-    menu_name: "ANANAS",
-    menu_image: menu_4,
+    category_name: "ANANAS",
+    category_image: category_ananas,
+    category_background: category_background_ananas
   },
   {
-    menu_name: "NEW BALANCE",
-    menu_image: menu_5,
+    category_name: "NEW BALANCE",
+    category_image: category_newbalance,
+    category_background: category_background_newbalance
   },
   {
-    menu_name: "CONVERSE",
-    menu_image: menu_6,
+    category_name: "CONVERSE",
+    category_image: category_converse,
+    category_background: category_background_converse
   },
   {
-    menu_name: "VANS",
-    menu_image: menu_7,
+    category_name: "VANS",
+    category_image: category_vans,
+    category_background: category_background_vans
   },
   {
-    menu_name: "BITIS",
-    menu_image: menu_8,
+    category_name: "BITIS",
+    category_image: category_bitis,
+    category_background: category_background_bitis
   },
 ];
 

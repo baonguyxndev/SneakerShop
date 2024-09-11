@@ -27,8 +27,8 @@ const Cart = () => {
       {isCartEmpty ? (
         <div className="cart-empty">
           <img src={assets.cart_empty_icon} alt="Cart is empty" />
-          <h2>Giỏ hàng trống</h2>
-          <button onClick={() => navigate("/")}>Tiếp tục mua sắm</button>
+          <h2>Giỏ hàng trống !</h2>
+          <button onClick={() => navigate("/products")}>Tiếp tục mua sắm</button>
         </div>
       ) : (
         <>

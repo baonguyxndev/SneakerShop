@@ -7,7 +7,7 @@ import { StoreContext } from "../context/StoreContext";
 // eslint-disable-next-line react/prop-types
 const SneakerItem = ({ id, name, price, description, image }) => {
   const { cartItems, addToCart, removeFromCart } = useContext(StoreContext);
-  
+
   const formatVND = (amount) => {
     return new Intl.NumberFormat("vi-VN", {
       style: "currency",
@@ -23,7 +23,7 @@ const SneakerItem = ({ id, name, price, description, image }) => {
           <img
             className="add"
             onClick={() => addToCart(id)}
-            src={assets.add_icon_white}
+            src={assets.add_to_cart}
             alt="Add to cart"
           />
         ) : (

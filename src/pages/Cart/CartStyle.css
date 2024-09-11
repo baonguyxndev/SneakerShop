@@ -1,8 +1,5 @@
-.cart-empty {
-  margin-top: 70px;
-}
 .cart-empty img {
-  width: 500px;
+  width: 300px;
   height: auto;
 }
 
@@ -16,13 +13,13 @@
 }
 
 .cart-empty h2 {
+  margin-top:-80px ;
   font-size: 2rem;
   color: tomato;
   margin-bottom: 20px;
 }
 
 .cart-empty button {
-  margin-top: 30px;
   padding: 10px 20px;
   font-size: 1rem;
   background-color: tomato;
@@ -30,8 +27,7 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.3s ease,
-    box-shadow 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .cart-empty button:hover {

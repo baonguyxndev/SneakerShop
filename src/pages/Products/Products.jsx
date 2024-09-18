@@ -4,16 +4,17 @@ import React, { useContext, useState } from "react";
 import "./ProductsStyle.css";
 import { StoreContext } from "../../context/StoreContext";
 import SneakerItem from "../../SneakerItem/SneakerItem";
+import { useLocation } from "react-router-dom";
 
 const Products = () => {
   const { sneaker_list } = useContext(StoreContext);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [maxPrice, setMaxPrice] = useState(10000000); // Giá tối đa mặc định
-
+  const query = new URLSearchParams(useLocation().search);
   const categories = Array.from(
     new Set(sneaker_list.map((product) => product.category))
-  ).concat("All");
+  ).concat("All") || query.get("category");
 
   const handleSearchChange = (e) => {
     setSearchQuery(e.target.value);

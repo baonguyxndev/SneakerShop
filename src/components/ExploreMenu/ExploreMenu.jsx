@@ -2,9 +2,18 @@
 import React from "react";
 import "./ExploreMenuStyle.css";
 import { category_list } from "../../assets/assets";
+import { useNavigate } from "react-router-dom";
 
 // eslint-disable-next-line react/prop-types
 const ExploreMenu = ({ category, setCategory }) => {
+  const navigate = useNavigate();  // Đưa useNavigate ra ngoài
+
+  const handleCategoryClick = (categoryName) => {
+    setCategory(categoryName);  // Cập nhật trạng thái danh mục hiện tại
+    navigate(`/category/${categoryName}`); // Điều hướng đến trang chi tiết danh mục
+    window.scrollTo(0, 0); //Scroll lên đầu trang
+  };
+
   return (
     <div className="explore-menu" id="explore-menu">
       <h1>Nhãn hàng</h1>
@@ -23,25 +32,19 @@ const ExploreMenu = ({ category, setCategory }) => {
         làm hài lòng cả những người yêu thích thời trang và hiệu suất.
       </p>
       <div className="explore-menu-list">
-        {category_list.map((item, index) => {
-          return (
-            <div
-              onClick={() =>
-                setCategory((prev) =>
-                  prev === item.category_name ? "All" : item.category_name
-                )
-              }
-              key={index}
-              className="explore-menu-list-item"
-            >
-              <img
-                className={category === item.category_name ? "active" : ""}
-                src={item.category_image}
-                alt=""
-              />
-            </div>
-          );
-        })}
+        {category_list.map((item, index) => (
+          <div
+            onClick={() => handleCategoryClick(item.category_name)} // Sử dụng handleCategoryClick để xử lý sự kiện
+            key={index}
+            className="explore-menu-list-item"
+          >
+            <img
+              className={category === item.category_name ? "active" : ""}
+              src={item.category_image}
+              alt={item.category_name}
+            />
+          </div>
+        ))}
       </div>
       <hr />
     </div>

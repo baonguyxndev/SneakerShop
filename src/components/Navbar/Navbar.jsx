@@ -20,8 +20,8 @@ const Navbar = ({ setShowLogin }) => {
       setMenu("products");
     } else if (location.hash === "/service") {
       setMenu("service");
-    } else if (location.hash === "#footer") {
-      setMenu("contact");
+    } else if (location.hash === "/about-us") {
+      setMenu("about-us");
     } else {
       setMenu(""); // Đặt giá trị trống nếu không khớp với bất kỳ menu nào
     }
@@ -55,9 +55,9 @@ const Navbar = ({ setShowLogin }) => {
           Dịch vụ
         </a>
         <a
-          href="#footer"
-          onClick={() => setMenu("contact")}
-          className={menu === "contact" ? "active" : ""}
+          href="/about-us"
+          onClick={() => setMenu("about-us")}
+          className={menu === "about-us" ? "active" : ""}
         >
           Về chúng tôi
         </a>

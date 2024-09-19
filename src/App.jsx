@@ -10,6 +10,7 @@ import LoginPopup from "./components/LoginPopup/LoginPopup";
 import Products from "./pages/Products/Products";
 import Category from "./pages/Category/Category";
 import Service from "./pages/Service/Service";
+import AboutUs from "./pages/AboutUs/AboutUs";
 
 const App = () => {
   const [showLogin, setShowLogin] = useState(false);
@@ -26,6 +27,7 @@ const App = () => {
           <Route path="/products" element={<Products/>}/>
           <Route path="/category/:category" element={<Category/>}/>
           <Route path="/service" element={<Service/>}/>
+          <Route path="/about-us" element={<AboutUs/>}/>
         </Routes>
       </div>
       <Footer />
